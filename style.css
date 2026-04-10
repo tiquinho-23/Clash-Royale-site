@@ -68,9 +68,45 @@ nav a:hover{
     margin: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3);
 }
+
 .titulo-section{
     color:royalblue;
     margin-bottom: 1.5rem;
     border-bottom: 2px solid;
     padding-bottom: 0.5rem;
+}
+
+.Torres{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.tower-card:hover{
+    background-color: white;
+    border: 8px;
+    overflow: hidden;
+    box-sizing: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tower-card:hover:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.Torre-do-rei:hover{
+    height:200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.towers-info{
+    padding: 1.5rem;
+}
+
+.towers-name{
+    color:#ff9500;
+    margin-bottom: 0.5rem;
 }
